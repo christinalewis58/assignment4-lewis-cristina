@@ -73,4 +73,24 @@ h2, p, li {
 .modern-house {
     width: 400px;
 }
+.modern-house:hover {
+    width: 450px;
+    transition: 2s;
+}
+
+header nav a:hover {
+    font-weight: 800;
+    transition: 1s;
+}
+
+.black-house {
+    width: 100px;
+    position: relative;
+    margin: 100px;
+}
+
+.black-house:hover {
+    transform: rotateZ(360deg);
+    transition: 1s;
+}
 
