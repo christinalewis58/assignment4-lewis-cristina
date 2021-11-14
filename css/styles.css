@@ -3,3 +3,31 @@
     padding: 0;
     border: 0;
 }
+header {
+    display: block;
+    padding: 20px;
+    font-family: sans-serif;
+    background: goldenrod;
+    position: fixed;
+    min-width: 100%;
+    z-index: 99;
+    }
+
+header nav ul li {
+    
+    margin: 20px;
+   
+}
+
+header nav {
+    display: inline-block;
+   
+}
+
+header nav a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0px 20px;
+    
+}
