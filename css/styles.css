@@ -14,7 +14,6 @@ header {
     }
 
 header nav ul li {
-    
     margin: 20px;
    
 }
@@ -30,4 +29,27 @@ header nav a {
     text-decoration: none;
     margin: 0px 20px;
     
+}
+h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    }
+
+ .image {
+        margin-top: 300px;
+        margin-left: 20px;
+        position: relative;
+        float: right;
+        padding: 5px;
+        }
+
+.tagline {
+    margin-top: 200px;
+    position: absolute;
+    font-family: cursive;
+}
+
+.custom-text {
+    text-decoration: underline;
 }
